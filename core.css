@@ -1,7 +1,7 @@
 @media screen {
 	.tang {
-			padding-left: 80px;
-			padding-right: 80px;
+			padding-left: 2%;
+			padding-right:  2%;
 		  font-family: helvetica, arial, sans-serif;
 		  /*background-color: #5555cc;*/
 	}
@@ -32,10 +32,10 @@ header h2 {
 }
 
 .block {
-    width: 640px;
+    width: 45%;
     height: auto;
 	  float: left;
-    margin-right: 75px;
+    margin-right: 5%;
     margin-left: 0;
 }
 
