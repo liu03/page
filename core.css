@@ -1,8 +1,9 @@
 @media screen {
 	.tang {
+overflow:hidden;
+margin: 20px 30px;
 			padding-left: 2%;
 			padding-right:  2%;
-		  font-family: helvetica, arial, sans-serif;
 		  /*background-color: #5555cc;*/
 	}
 }
@@ -11,21 +12,26 @@
 	.tang {
 	    width: 320px;
 	    margin: 0 auto;
-		  font-family: helvetica, arial, sans-serif;
-		  background-color: #5555cc;
 	}
 
 }
 
+body{
+		  font-family: helvetica, arial, sans-serif;
+margin: 0;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(60,142,223,0.5)), color-stop(40%,rgba(83,203,241,0.7)), color-stop(100%,rgba(25,71,124,0.6)),color-stop(80%,rgba(235,224,253,0.5)));
+background: -webkit-linear-gradient(top, rgba(135,124,223,0.4) 0%,rgba(83,203,241,0.2)15%);
+}
+
 header {
-    height: 64px;
+    height: 60px;
     padding: 0;
-    margin: 20px 20px;
+    margin: 0 20px;
 }
 
 header h2 {
 		color: #8ac007;
-		font-size: 36px;
+		font-size: 40px;
 		font-weight: 200;
 		line-height: 34px;
 		text-decoration: none;
@@ -33,9 +39,11 @@ header h2 {
 
 .block {
     width: 45%;
+    min-width: 380px;
     height: auto;
-	  float: left;
+    float: left;
     margin-right: 5%;
+    margin-top: 25px;
     margin-left: 0;
 }
 
@@ -70,7 +78,7 @@ header h2 {
 
 .card-large {
 	  width: 310px;
-		height: 310px;
+	  height: 310px;
 	  margin: 5px;
 	  position: relative;
 	  float: left;
