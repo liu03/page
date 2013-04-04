@@ -1,0 +1,110 @@
+@media screen {
+	.tang {
+			padding-left: 80px;
+			padding-right: 80px;
+		  font-family: helvetica, arial, sans-serif;
+		  /*background-color: #5555cc;*/
+	}
+}
+
+@media (max-width: 480px) {
+	.tang {
+	    width: 320px;
+	    margin: 0 auto;
+		  font-family: helvetica, arial, sans-serif;
+		  background-color: #5555cc;
+	}
+
+}
+
+header {
+    height: 64px;
+    padding: 0;
+    margin: 20px 20px;
+}
+
+header h2 {
+		color: #8ac007;
+		font-size: 36px;
+		font-weight: 200;
+		line-height: 34px;
+		text-decoration: none;
+}
+
+.block {
+    width: 640px;
+    height: auto;
+	  float: left;
+    margin-right: 75px;
+    margin-left: 0;
+}
+
+.tang a { 
+	  color: #FFF;
+		text-decoration: none;
+}
+
+.card {
+    display: block;
+	  width: 150px;
+		height: 150px;
+	  margin: 5px;
+	  position: relative;
+	  float: left;
+	  background-color: #0088cc;
+}
+
+.card-long {
+	  width: 310px;
+		height: 150px;
+	  margin: 5px;
+	  position: relative;
+	  float: left;
+	  background-color: #0088cc;
+}
+
+.card:hover, .card-long:hover, .card-large:hover {
+	  border: solid 3px #555;
+	  margin: 2px;
+}
+
+.card-large {
+	  width: 310px;
+		height: 310px;
+	  margin: 5px;
+	  position: relative;
+	  float: left;
+	  background-color: #0088cc;
+}
+
+.theme-a {
+	  background-color: #4099ff;
+}
+
+.theme-b {
+	  background-color: #01a31c;
+}
+
+.theme-c {
+	  background-color: #6cda1a;
+}
+
+.theme-d {
+	  background-color: #00ccff;
+}
+
+.theme-e {
+	  background-color: #f60000;
+}
+
+.theme-f {
+	  background-color: #59008f;
+}
+
+.theme-g {
+	  background-color: #ffc0cb;
+}
+
+.theme-h {
+	  background-color: #008641;
+}
